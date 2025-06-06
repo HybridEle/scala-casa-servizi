@@ -2,11 +2,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Home, 
-  Stairs, 
+  ArrowUp, 
   Bath, 
   ChefHat, 
-  Window, 
-  Roof,
+  Square, 
+  Triangle,
   Zap,
   Thermometer,
   Wrench,
@@ -17,7 +17,7 @@ import {
 
 const services = [
   {
-    icon: Stairs,
+    icon: ArrowUp,
     title: "Montascale",
     description: "Installazione e assistenza montascale per ogni tipo di scala",
     color: "text-primary",
@@ -38,14 +38,14 @@ const services = [
     bgColor: "bg-primary/10"
   },
   {
-    icon: Window,
+    icon: Square,
     title: "Sostituzione Finestre",
     description: "Finestre ad alta efficienza energetica",
     color: "text-accent",
     bgColor: "bg-accent/10"
   },
   {
-    icon: Roof,
+    icon: Triangle,
     title: "Rifacimento Tetto",
     description: "Riparazione e sostituzione tetti e coperture",
     color: "text-primary",
